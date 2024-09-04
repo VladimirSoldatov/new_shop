@@ -17,3 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/home/', 'TestController@index');
+Route::get('/users/', 'UserController@index');
+Route::get('/photo/', 'PhotoController@index');
